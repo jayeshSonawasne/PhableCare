@@ -1,0 +1,17 @@
+.scrollbardiv {
+    height: 420px;
+  }
+  .scrollbardiv::-webkit-scrollbar {
+    width: 0px;
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+  }
